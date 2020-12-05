@@ -1,0 +1,18 @@
+<div class="d-flex col">
+    <div *ngIf="isValid; else elseBlock">
+     <div>
+      <app-nav></app-nav>
+     </div>
+     <main><router-outlet></router-outlet></main>
+     <app-shopping-cart>
+      <app-product-list>
+     </app-shopping-cart>
+     <div>
+      <app-footer>the footer is this</app-footer>
+     </div>
+    </div>
+    <ng-template #elseBlock>
+    <app-login></app-login>
+    </ng-template>
+   </div>
+   

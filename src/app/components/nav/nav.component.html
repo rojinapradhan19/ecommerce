@@ -1,0 +1,23 @@
+<nav class="d-flex row space-between">
+    <div>
+     <img
+      class="pointer"
+      (click)="changeSideBarState()"
+      src="../../../assets/icon/menu.svg"
+      alt=""
+      class="icon mx-1 px-1"
+     />
+    </div>
+    <div class="d-flex row space-between">
+     <div class="mx-1 nav-link">Shoping cad</div>
+     <div class="mx-1 nav-link">Logout</div>
+    </div>
+   </nav>
+   <div *ngIf="activeSideBar" class="sidbar">
+    <div class="d-flex col">
+     <div class="side-link d-flex center py-1 my-1">Product list</div>
+     <div class="side-link d-flex center py-1 my-1">Cart</div>
+     <div class="side-link d-flex center py-1 my-1">Filter</div>
+    </div>
+   </div>
+   

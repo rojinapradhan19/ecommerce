@@ -1,0 +1,52 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name:": "keyboard",
+      "description": "sdhjshdsbdhcbshjcbshdbcshdbchsbcjhbscs",
+      "imageUrl": "https://ae01.alicdn.com/kf/HTB1K0YafrArBKNjSZFLq6A_dVXak/Backlit-Gaming-Keyboard-Steampunk-Retro-Round-Square-Keycap-USB-Wired-Glowing-Metal-Panel-Laptop-Computer-Keyboard.jpg",
+      "price": 5000
+    },
+    {
+      "id": 2,
+      "name:": "keyboard",
+      "description": "sdhjshdsbdhcbshjcbshdbcshdbchsbcjhbscs",
+      "imageUrl": "https://ae01.alicdn.com/kf/HTB1K0YafrArBKNjSZFLq6A_dVXak/Backlit-Gaming-Keyboard-Steampunk-Retro-Round-Square-Keycap-USB-Wired-Glowing-Metal-Panel-Laptop-Computer-Keyboard.jpg",
+      "price": 5000
+    },
+    {
+      "id": 3,
+      "name:": "mouse",
+      "description": "sdhjshdsbdhcbshjcbshdbcshdbchsbcjhbscs",
+      "imageUrl": "https://cf.shopee.sg/file/1199682d1765fa413a9ee25341a336dd",
+      "price": 5000
+    },
+    {
+      "id": 4,
+      "name:": "blue keyboard",
+      "description": "sdhjshdsbdhcbshjcbshdbcshdbchsbcjhbscs",
+      "imageUrl": "https://www.stationerynx.com/wp-content/uploads/2020/05/Untitled-1.jpg",
+      "price": 5500
+    }
+  ],
+  "cart": [
+  ],
+  
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
